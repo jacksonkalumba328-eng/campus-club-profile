@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Club Profile</title>
+</head>
+<body>
+
+    <h1>Campus Club Profile</h1>
+
+    <h2>Welcome to Campus Clubs</h2>
+    <h2>Add a New Club</h2>
+
+<form id="clubForm">
+    <label>Club Name:</label>
+    <input type="text" id="name" required>
+
+    <label>Description:</label>
+    <input type="text" id="description" required>
+
+    <label>Category:</label>
+    <input type="text" id="category" required>
+
+    <label>President:</label>
+    <input type="text" id="president" required>
+
+    <label>Meeting Day:</label>
+    <input type="text" id="meeting_day" required>
+
+    <button type="submit">Add Club</button>
+</form>
+    <p>Explore the different clubs available at our campus.</p>
+
+    <div id="clubs">
+        Loading clubs...
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
